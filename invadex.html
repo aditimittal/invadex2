@@ -212,9 +212,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
         <li><a href="#band">ABOUT US</a></li>
+        <li><a href="#services">SERVICES</a></li>
         <li><a href="#blog">BLOG</a></li>
         <li><a href="#resources">RESOURCES</a></li>
         <li><a href="#events">EVENTS</a></li>
+
         <li><a href="#contact">CONTACT</a></li>
         <li class="cow"><a href="#">CoWorking Space</a></li>
         <li class="cow"><a href="#">Digital Transformation</a></li>
@@ -274,9 +276,15 @@ We have three products from our startup<br>
   <br>
   
 </div>
+<div id="services" class="bg-1">
+  <div class="container">
+    <h3 class="text-center" >SERVICES</h3>
+   <p>DISCOVER OUR EXPERTISE
+Invadex exists to solve the critical issues facing our clients, both large and small. Our unique approach is not only what differentiates us, but also what makes us successful. We provide a broad range of services and solutions to help organizations facilitate change, achieve their vision and optimize performance and productivity.</p>
+    </div>
+  </div>
 
-
-<div id="blog" class="bg-1">
+<div id="blog" class="bg-2">
   <div class="container">
     <h3 class="text-center">BLOG</h3>
     
@@ -286,7 +294,7 @@ We have three products from our startup<br>
   <div class="container">
     <h3 class="text-center">RESOURCES</h3>
   
-      </div>
+     
     </div>
   </div>
   <div id="events" class="bg-2">
@@ -295,7 +303,7 @@ We have three products from our startup<br>
    
     </div>
   </div>
-  <!-- Modal -->
+
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -331,7 +339,6 @@ We have three products from our startup<br>
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
 <div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
   
@@ -362,40 +369,9 @@ We have three products from our startup<br>
     </div>
   </div>
   <br>
-  <!--<h3 class="text-center">From The Blog</h3>  
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-  </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-    </div>-->
   </div>
 </div>
-
-<!-- Add Google Maps -->
-<!--<div id="googleMap"></div>-->
-<!--<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 
 
@@ -436,11 +412,12 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    } 
   });
 })
 </script>
 
 </body>
 </html>
+
 
